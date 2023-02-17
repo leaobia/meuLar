@@ -1,6 +1,7 @@
 body {
     display: grid;
     grid-template-areas: "content";
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -10,11 +11,11 @@ header {
     width: 100%;
     z-index: 1;
     padding-left: 8%;
-    padding-right: 20px ;
+    padding-right: 8%;
+    padding-top: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    background-color: black;
 }
 main {
     grid-area: content;
@@ -24,5 +25,4 @@ main {
     padding-right: 20px ;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
 }
