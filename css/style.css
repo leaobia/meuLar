@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-areas: "content";
+}
+
+header {
+    height: 110px;
+    place-self: start center;
+    grid-area: content;
+    width: 100%;
+    z-index: 1;
+    padding-left: 8%;
+    padding-right: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: black;
+}
+main {
+    grid-area: content;
+    display: flex;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 20px ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
