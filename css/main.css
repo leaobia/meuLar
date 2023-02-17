@@ -1,25 +1,58 @@
 .text-content{
     padding-top: 20vh;
     grid-area: 'text';
-    height: 75vh;
-    background-color: aqua;
+    height: 70vh;
+    padding-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
 }
 .titles{
     display: flex;
     flex-direction: column;
     gap: 5vh;
-    padding-left: 8vw;
 }
 .titles h1{
     font-size: clamp(1.625rem, 0.7566rem + 5.766vw, 4rem);
     max-width: 596px;
+    font-weight: 400;
 }
 .titles h2{
     font-size: clamp(1.125rem, 0.9283rem + 1.0164vw, 1.5rem);
     max-width: 766px;
+    font-weight: 400;
 }
 .container-img{
     grid-area: 'container';
-    height: 25vh;
+    height: 30vh;
     background-color: black;
+}
+
+.buttons{
+    display: flex;
+    gap: 1.5vw;
+}
+
+.btn1,.btn2{
+    font-size: clamp(.1em, .8em + .9vw, 1.1em);
+    max-width: 280px;
+    padding: 1.0672358591248665vh  0.5208333333333334vw;
+    font-weight: 400;
+    width: 45%;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.btn1:hover,.btn2:hover{
+        transform: scale(0.9);
+}
+.btn1{
+    background-color: #353535;
+    color: #FFFF;
+    border: none;
+}
+
+.btn2{
+    background-color: #F7F7F7;
+    border: 1px solid #353535;
 }
