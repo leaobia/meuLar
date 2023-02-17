@@ -1,0 +1,25 @@
+.text-content{
+    padding-top: 20vh;
+    grid-area: 'text';
+    height: 75vh;
+    background-color: aqua;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-left: 8vw;
+}
+.titles h1{
+    font-size: clamp(1.625rem, 0.7566rem + 5.766vw, 4rem);
+    max-width: 596px;
+}
+.titles h2{
+    font-size: clamp(1.125rem, 0.9283rem + 1.0164vw, 1.5rem);
+    max-width: 766px;
+}
+.container-img{
+    grid-area: 'container';
+    height: 25vh;
+    background-color: black;
+}
