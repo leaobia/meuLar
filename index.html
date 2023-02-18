@@ -8,6 +8,7 @@
     <meta name="description" content="Landing Page ficticia Meu Lar">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Bianca Leao">
+    <link rel="stylesheet" href="owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
@@ -16,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap"
         rel="stylesheet">
+    <script src="./jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="script.js" defer></script>
     <title>Meu Lar</title>
 </head>
 
@@ -35,21 +39,43 @@
                 </div>
                 <a href="#contact">Contato</a>
             </ul>
+        </nav>
     </header>
     <main>
-            <div class="text-content">
-                <div class="titles">
-                    <h1>Conheça o melhor imóvel para você</h1>
-                    <h2>A imobiliária que ajuda você a encontrar o lar dos seus sonhos.</h2>
+        <div class="text-content">
+            <div class="titles">
+                <h1>Conheça o melhor imóvel para você</h1>
+                <h2>A imobiliária que ajuda você a encontrar o lar dos seus sonhos.</h2>
+            </div>
+            <div class="buttons">
+                <button class="btn1">Imóveis para comprar</button>
+                <button class="btn2">Imóveis para alugar</button>
+            </div>
+        </div>
+        <div class="container-img">
+            <div class="owl-carousel">
+                <div class="item">
+                    <img src="./img/image 1.png" alt="Residencia aconchegante no interior de SP"/>
                 </div>
-                <div class="buttons">
-                    <button class="btn1">Imóveis para comprar</button>
-                    <button class="btn2">Imóveis para alugar</button>
+                <div class="item">
+                    <img src="./img/image 2.png" alt="Imóvel de luxo em Sorocaba" />
+                </div>
+                <div class="item">
+                    <img src="./img/image 3.png" alt="Casa 2 andares, 3 quartos"/>
+                </div>
+                <div class="item">
+                    <img src="./img/image 4.png"  alt="Imóvel na praia"/>
+                </div>
+                <div class="item">
+                    <img src="./img/image 5.png" alt="Casa 2 andares amarela, vizinhança agradável"/>
+                </div>
+                <div class="item">
+                    <img src="./img/image 6.png" alt="Imóvel de luxo em Campinas" />
                 </div>
             </div>
-            <div class="container-img"></div>
-        
+        </div>
     </main>
+
 </body>
 
 </html>

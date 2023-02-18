@@ -1,12 +1,11 @@
+html{
+    overflow: hidden;
+}
+
 body {
     display: grid;
     grid-template-areas: "content";
     font-family: 'Montserrat', sans-serif;
-}
-
-html{
-    overflow: hidden;
-    scroll-behavior: hidden;
 }
 
 header {
